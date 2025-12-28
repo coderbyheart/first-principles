@@ -1,5 +1,8 @@
 gut-feeling.pdf: Makefile *.md *.txt ./media/*
-	pandoc --pdf-engine=xelatex --from markdown+tex_math_dollars+header_attributes -o $@ \
+	pandoc \
+		--pdf-engine=xelatex \
+		--from markdown+tex_math_dollars+header_attributes \
+		-o $@ \
 		title.txt \
 		cover.md \
 		about.md \
