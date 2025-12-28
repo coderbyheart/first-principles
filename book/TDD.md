@@ -47,4 +47,3 @@ Here is a talk I gave about this topic. [^e2e-talk]
 - <https://dannorth.net/introducing-bdd/>
 - <https://cucumber.io/docs/guides/bdd-tutorial/>
 - <https://inviqa.com/blog/bdd-guide>
-

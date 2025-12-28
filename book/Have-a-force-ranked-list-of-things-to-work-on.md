@@ -285,6 +285,9 @@ in keeping everyone in the loop.
 - Johannes Seitz: Architecting the uncertain - Getting started with Agile Software Architecture: <https://printhelloworld.de/posts/iteration-zero-architecture/>
 
 [^user-story]: <https://en.wikipedia.org/wiki/User_story>
+
 [^domain-story]: <https://domainstorytelling.org/>
+
 [^rfc]: <https://philcalcado.com/2018/11/19/a_structured_rfc_process.html>
+
 [^slap]: <http://slap.pm/>
