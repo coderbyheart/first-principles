@@ -20,7 +20,7 @@ Third, these documents never expire and outdate quickly. They are available thro
 
 ## Lean proposals with a bias to start building
 
-I prefer to work on a proposal with only the people that have committed resources to the project to draft a rough document that outlines what should be built, and to agree on the timeframe. Identify any blockers and solve them, but then start to work on the real thing quickly. Use the working software to iterate, not the document. Do use the bug tracker to record features. [A bug tracker should have 0 open tickets.](#zero-bug-policy).
+I prefer to work on a proposal with only the people that have committed resources to the project to draft a rough document that outlines what should be built, and to agree on the timeframe. Identify any blockers and solve them, but then start to work on the real thing quickly. Use the working software to iterate, not the document. Read more about my preferred way to manage software development in [this chapter](#what-to-work-on). Do use the bug tracker to record features. [A bug tracker should have 0 open tickets.](#zero-bug-policy).
 
 ## Literature
 
