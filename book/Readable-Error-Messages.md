@@ -1,3 +1,5 @@
+\newpage
+
 # Readable Error Messages
 
 > Error messages are the only piece of documentation you can be sure people will read when it is relevant. Write them accordingly.  

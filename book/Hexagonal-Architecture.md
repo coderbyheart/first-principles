@@ -1,3 +1,5 @@
+\newpage
+
 # Hexagonal Architecture
 
 ## Literature

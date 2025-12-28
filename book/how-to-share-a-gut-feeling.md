@@ -1,3 +1,5 @@
+\newpage
+
 # How to share gut feeling
 
 _How can we share the gut feeling we use when writing software?_
@@ -82,7 +84,5 @@ in a public repository [^first-principles-issues],
 which will serve as a base for our internal collection.
 
 [^socrates-2008]: <https://coderbyheart.com/socrates-2018>
-
 [^solid]: <https://en.wikipedia.org/wiki/SOLID>
-
 [^first-principles-issues]: <https://github.com/coderbyheart/first-principles/issues>

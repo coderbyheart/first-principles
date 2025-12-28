@@ -1,3 +1,5 @@
+\newpage
+
 # Speed up your meetings with pre-written meeting minutes {#pre-written-meeting-minutes}
 
 _How to make your meetings fun again, productive and produce a well-made protocol afterwards._

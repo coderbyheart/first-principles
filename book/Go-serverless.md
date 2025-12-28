@@ -1,3 +1,5 @@
+\newpage
+
 # Go serverless
 
 Going serverless allows me and a rather small team of engineers to build a globally scalable software solution with a very high confidence in it's scalability and an ease of mind during operations. In the last years since I have been working fully serverless, I have not once experienced a surprising event that impacted our production system. Yes, we experience issues which gradually become more serious over time, but in general it happens in a way that does not interfere with my vacation plans.

@@ -1,3 +1,5 @@
+\newpage
+
 # Separate workflows through events
 
 ## Bad
@@ -30,7 +32,7 @@ class UserManager {
 class TransactionalMailer {
   construct(eventBus) {
     eventBus.on("UserCreated", (name, { email }) =>
-      this.sendConfirmationEmail(email),
+      this.sendConfirmationEmail(email)
     );
   }
 }

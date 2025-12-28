@@ -1,3 +1,5 @@
+\newpage
+
 # Prototypes are better than 10,000 words in a meeting
 
 _No meeting, design document, or presentation can ever be as good as building a simple prototype of the thing we are trying to build._

@@ -1,3 +1,5 @@
+\newpage
+
 # Privilege
 
 _A reflection on my principles is not possible without acknowledging my privileges._

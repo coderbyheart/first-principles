@@ -1,3 +1,5 @@
+\newpage
+
 # All code style guides must be enforceable by tools
 
 If there is no tool to fix a style issue, then I won't enforce the rule.

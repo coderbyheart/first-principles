@@ -1,3 +1,5 @@
+\newpage
+
 # Do not proxy Third Party (RESTful) APIs
 
 _Do not make the user wait on a machine, let another machine do the waiting._

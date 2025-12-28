@@ -1,3 +1,5 @@
+\newpage
+
 # Videos to watch
 
 - Chew Choon Keat: TDD for this who don't need it

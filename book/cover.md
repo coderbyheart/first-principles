@@ -1,3 +1,5 @@
+\newpage
+
 # Gut Feeling
 
 First Principles of a Software Crafter
