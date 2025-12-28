@@ -12,7 +12,7 @@ collaborating with others humans on coercing machines into providing more value
 than pain.
 
 > Privilege is a performance enhancing drug.
-> — [Dr. Ayoade Alakija](https://twitter.com/yodifiji/status/1480702460465451016)
+> — Dr. Ayoade Alakija [^status-1480702460465451016]
 
 I've been given the privilege to very early discover that I could turn my
 fascination with computers into a job. Already as a teenager, I was able to find
@@ -45,3 +45,5 @@ In knowing my privileges, and respecting the opportunities they have given me, I
 thrive to treat others _not_ as equals, because very few had the same privileges
 as me. But I aim to use my skills, experience, and resources to their best
 impact in our relationship.
+
+[^status-1480702460465451016]: <https://twitter.com/yodifiji/status/1480702460465451016>

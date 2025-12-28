@@ -2,10 +2,10 @@
 
 _How can we share the gut feeling we use when writing software?_
 
-A question I brought to [SoCraTes 2018](https://coderbyheart.com/socrates-2018)
+A question I brought to SoCraTes 2018 [^socrates-2008]
 was one that formed in the recent months when I was onboarding a new developer
 to a greenfield project. The project they going to work on is developed as a
-[walking skeleton](https://codeclimate.com/blog/kickstart-your-next-project-with-a-walking-skeleton/).
+[walking skeleton](#walking-skeleton).
 Although the architecture is complete, there is not enough flesh on it to
 clearly see the _patterns_ I have used when designing it. Right now every
 component looks like a unicorn and it is hard to see the underlying principles
@@ -36,7 +36,7 @@ In this session I listed mine and we collected some more:
 - Code Stewardship
 
 While some of those are fairly easy to explain (like S.O.L.I.D. where extensive
-documentation [can easily be found](https://en.wikipedia.org/wiki/SOLID)),
+documentation can easily be found [^solid]),
 others are horribly ambiguous, like _Simplicity_.
 
 In the course of the session we then collected, how principles are shared within
@@ -78,5 +78,11 @@ we should drop it. (The number of times a principle has been violated will be a
 good indicator!).
 
 I for myself have now started to collect first principles
-[in a public repository](https://github.com/coderbyheart/first-principles/issues),
+in a public repository [^first-principles-issues],
 which will serve as a base for our internal collection.
+
+[^socrates-2008]: <https://coderbyheart.com/socrates-2018>
+
+[^solid]: <https://en.wikipedia.org/wiki/SOLID>
+
+[^first-principles-issues]: <https://github.com/coderbyheart/first-principles/issues>

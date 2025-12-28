@@ -62,6 +62,9 @@ uncovering fundamental truths takes practice, but always delivers.
 
 ## Literature
 
-- [Buffer Open: The 5 Whys Process We Use to Understand the Root of Any Problem](https://buffer.com/./media/5-whys-process/)
-- [Daniel Kahneman: Thinking, Fast and Slow](https://www.nytimes.com/2011/11/27/books/review/thinking-fast-and-slow-by-daniel-kahneman-book-review.html)
-- [Wikipedia: Five whys](https://en.wikipedia.org/wiki/Five_whys)
+- Buffer Open: The 5 Whys Process We Use to Understand the Root of Any Problem:  
+  <https://buffer.com/./media/5-whys-process/>
+- Daniel Kahneman: Thinking, Fast and Slow  
+  <https://www.nytimes.com/2011/11/27/books/review/thinking-fast-and-slow-by-daniel-kahneman-book-review.html>
+- Wikipedia: Five whys
+  <https://en.wikipedia.org/wiki/Five_whys>

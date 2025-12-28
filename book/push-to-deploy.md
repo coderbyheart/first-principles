@@ -1,4 +1,4 @@
-# Push to deploy
+# Push to deploy {#push-to-deploy}
 
 _The way to move quickly is to focus on adding value, not packaging it._
 
@@ -31,10 +31,10 @@ analysis and others to ensure that run-time defects to not happen often and that
 a change. Those are first-principles in their own right which I will focus in
 later posts.
 
-## busFactor = ∞
+## busFactor = $∞$
 
 Push to deploy is a way to increase the
-[bus factor](https://en.wikipedia.org/wiki/Bus_factor) significantly. It allows
+bus factor [^bus-factor] significantly. It allows
 me to go on vacation. By actively moving knowledge into code, I also enable
 colleagues to learn _how_ things are done and work together.
 
@@ -43,9 +43,17 @@ me to move fast, and with confidence.
 
 ## Literature
 
-- [The SPACE of Developer Productivity](https://queue.acm.org/detail.cfm?id=3454124)
-- [ACCELERATE &mdash; The Science of Lean Software and DevOps: Building and Scaling High Performing Technology Organizations](https://itrevolution.com/book/accelerate/)
-- [Charity Majors: It is time to fulfill the promise of CI/CD](https://speakerdeck.com/charity/cd)
-- [Continuous integration vs. continuous delivery vs. continuous deployment](https://www.atlassian.com/continuous-delivery/principles/continuous-integration-vs-delivery-vs-deployment)
-- [Reproducible Builds](https://reproducible-builds.org/)
-- [GitOps](https://www.gitops.tech/)
+- The SPACE of Developer Productivity  
+  <https://queue.acm.org/detail.cfm?id=3454124>
+- ACCELERATE &mdash; The Science of Lean Software and DevOps: Building and Scaling High Performing Technology Organizations  
+  <https://itrevolution.com/book/accelerate/>
+- Charity Majors: It is time to fulfill the promise of CI/CD  
+  <https://speakerdeck.com/charity/cd>
+- Continuous integration vs. continuous delivery vs. continuous deployment  
+  <https://www.atlassian.com/continuous-delivery/principles/continuous-integration-vs-delivery-vs-deployment>
+- Reproducible Builds  
+  <https://reproducible-builds.org/>
+- GitOps  
+  <https://www.gitops.tech/>
+
+[^bus-factor]: <https://en.wikipedia.org/wiki/Bus_factor>
