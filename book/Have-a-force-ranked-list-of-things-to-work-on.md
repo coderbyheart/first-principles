@@ -2,9 +2,7 @@
 
 # Have a force ranked list of things to work on {#what-to-work-on}
 
-\newpage
-
-# How I approach problems
+## How I approach problems
 
 1. Look at the problem from the user's point of view.  
    → write down the _User Story_ [^user-story], this becomes the source for the acceptance test(s).
