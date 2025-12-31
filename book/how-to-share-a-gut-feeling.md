@@ -84,5 +84,7 @@ in a public repository [^first-principles-issues],
 which will serve as a base for our internal collection.
 
 [^socrates-2008]: <https://coderbyheart.com/socrates-2018>
+
 [^solid]: <https://en.wikipedia.org/wiki/SOLID>
+
 [^first-principles-issues]: <https://github.com/coderbyheart/first-principles/issues>

@@ -13,3 +13,5 @@
 [^gh-security]: <https://help.github.com/en/github/managing-security-vulnerabilities/about-security-alerts-for-vulnerable-dependencies>
 
 [^snyk]: <https://snyk.io/>
+
+[^ul]: <https://martinfowler.com/bliki/UbiquitousLanguage.html>

@@ -14,6 +14,7 @@ gut-feeling.pdf: Makefile *.md *.txt ./media/*
 		build-prototypes-instead-of-calling-a-meeting.md \
 		Have-a-force-ranked-list-of-things-to-work-on.md \
         wishful-thinking.md \
+		Ubiquitous-Language.md \
         walking-skeleton.md \
 		TDD.md \
 		zero-bug-policy.md \
