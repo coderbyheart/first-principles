@@ -1,0 +1,15 @@
+{
+  "name": "first-principles",
+  "version": "0.0.0-development",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/coderbyheart/first-principles.git"
+  },
+  "keywords": [],
+  "author": "Markus Tacker | https://coderbyheart.com",
+  "license": "CC BY-NC-ND 4.0",
+  "bugs": {
+    "url": "https://github.com/coderbyheart/first-principles/issues"
+  },
+  "homepage": "https://github.com/coderbyheart/first-principles#readme"
+}
