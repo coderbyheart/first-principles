@@ -4,7 +4,7 @@
 
 _How can we share the gut feeling we use when writing software?_
 
-A question I brought to SoCraTes 2018 [^socrates-2008]
+A question I brought to SoCraTes 2018 [^socrates-2018]
 was one that formed in the recent months when I was onboarding a new developer
 to a greenfield project. The project they going to work on is developed as a
 [walking skeleton](#walking-skeleton).
@@ -82,9 +82,3 @@ good indicator!).
 I for myself have now started to collect first principles
 in a public repository [^first-principles-issues],
 which will serve as a base for our internal collection.
-
-[^socrates-2008]: <https://coderbyheart.com/socrates-2018>
-
-[^solid]: <https://en.wikipedia.org/wiki/SOLID>
-
-[^first-principles-issues]: <https://github.com/coderbyheart/first-principles/issues>

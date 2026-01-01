@@ -1,11 +1,9 @@
 \newpage
 
-# Gut Feeling
+# Gut Feelings
 
 First Principles of a Software Crafter
 
-![Cover](./book/media/cover.png)
+![A gut feeling in the real world](./book/media/cover.png)
 
-First Principles of a Software Crafter is written by Markus Tacker [^1], an software crafter with three decades experience writing software for the internet. This book aims to put the gut feeling he uses when writing software into words so they can be thought to beginners (and LLMs).
-
-[^1]: <https://coderbyheart.com>
+Gut Feelings: First Principles of a Software Crafter is written by Markus Tacker [^homepage], an software crafter with three decades experience writing software for the internet. This book aims to put the gut feelings he uses when writing software into words so they can be tought to others.

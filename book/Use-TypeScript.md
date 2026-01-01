@@ -24,7 +24,7 @@ To address this, I created a small **“portal repository.”** This repo houses
 
 ## Validation with TypeBox and JSON Schema
 
-For runtime validation I rely on **[TypeBox](https://github.com/sinclairzx81/typebox)**, which generates performant validators from JSON Schema definitions. While JSON Schema isn’t perfect—it struggles with complex inter‑field dependencies—it covers roughly **98 %** of our needs. When we encounter edge cases, we simply augment the schema with custom TypeScript code that enforces the more intricate business rules.
+For runtime validation I rely on **[TypeBox](https://github.com/sinclairzx81/typebox)**, which generates performant validators from JSON Schema definitions. While JSON Schema isn’t perfect—it struggles with complex inter‑field dependencies—it covers roughly **98 %** of our needs. When we encounter edge cases, we augment the schema with custom TypeScript code that enforces the more intricate business rules.
 
 ## Benefits of a Single Language Stack
 

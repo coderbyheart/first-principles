@@ -36,5 +36,4 @@ gut-feeling.pdf: Makefile book/*.md book/*.txt book/media/*
 		book/Books.md \
 		book/Videos.md \
 		book/Refs.md \
-		book/end.md
-
+		book/Copyright.md

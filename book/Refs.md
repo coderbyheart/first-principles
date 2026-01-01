@@ -15,3 +15,11 @@
 [^snyk]: <https://snyk.io/>
 
 [^ul]: <https://martinfowler.com/bliki/UbiquitousLanguage.html>
+
+[^socrates-2018]: <https://coderbyheart.com/socrates-2018>
+
+[^solid]: <https://en.wikipedia.org/wiki/SOLID>
+
+[^first-principles-issues]: <https://github.com/coderbyheart/first-principles/issues>
+
+[^homepage]: <https://coderbyheart.com>
