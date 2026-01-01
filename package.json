@@ -11,5 +11,22 @@
   "bugs": {
     "url": "https://github.com/coderbyheart/first-principles/issues"
   },
-  "homepage": "https://github.com/coderbyheart/first-principles#readme"
+  "homepage": "https://github.com/coderbyheart/first-principles#readme",
+  "devDependencies": {
+    "husky": "9.1.7",
+    "lint-staged": "16.2.7",
+    "prettier": "3.7.4"
+  },
+  "engines": {
+    "node": ">=24",
+    "npm": ">=10"
+  },
+  "lint-staged": {
+    "*.{md,json,yaml,yml}": [
+      "prettier --write"
+    ]
+  },
+  "scripts": {
+    "prepare": "husky"
+  }
 }
