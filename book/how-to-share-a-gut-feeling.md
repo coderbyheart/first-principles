@@ -23,7 +23,7 @@ decisions.
 
 But what _are_ First Principles?
 
-![Session Notes](./media/first-principles-session-notes.jpg)
+![Session Notes](./book/media/first-principles-session-notes.jpg)
 
 In this session I listed mine and we collected some more:
 
@@ -59,7 +59,7 @@ system. It provides an easy way to regularly revisit these decisions after a
 certain amount of time has passed and decide again whether to keep it or get rid
 of it.
 
-![Process](./media/how-to-convey-first-principles.jpg)
+![Process](./book/media/how-to-convey-first-principles.jpg)
 
 I was also looking for a way to provide documentation about _First Principles_
 before code is written, especially to reduce frustration during code-reviews
@@ -69,7 +69,7 @@ order to heal the pull-request.
 Following the idea of continuous improvement (I think this is yet another First
 Principle) I will try to follow this process:
 
-![Documenting First Principles](./media/convey-flowchart.png)
+![Documenting First Principles](./book/media/convey-flowchart.png)
 
 This will lead over time to a collection of _First Principles_ which can be used
 to train new developers.

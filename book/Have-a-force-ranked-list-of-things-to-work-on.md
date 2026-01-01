@@ -120,7 +120,7 @@ that each topic has it’s purpose and having stories that are never making it
 into the Sprint is easier understood, if they are constantly on top of their
 Topic list.
 
-![Setting up a product management process: Backlog Trello Board](./media/setting-up-a-product-management-process/t1.png)
+![Setting up a product management process: Backlog Trello Board](./book/media/setting-up-a-product-management-process/t1.png)
 
 Since we are using an approach inspired by Kanban, the most important Stories
 must be at the top of each Topic list. Typically I have a dedicated Owner per
@@ -186,7 +186,7 @@ them again in order of priority. At this point we would also discuss—given the
 expected capacity of the next two weeks—which of those stories we feel confident
 in building.
 
-![Setting up a product management process: Backlog Trello Board](./media/setting-up-a-product-management-process/t2.png)
+![Setting up a product management process: Backlog Trello Board](./book/media/setting-up-a-product-management-process/t2.png)
 
 And two weeks is just the horizon I feel comfortable predicting. Four weeks is
 ages and given that most stories are really hard to estimate because most of the
@@ -196,7 +196,7 @@ other hand is too short to really get stuff done because for any given week
 there may be just one or two days where you can manage to focus on one task for
 half a day.
 
-![Setting up a product management process: Uncertainty](./media/setting-up-a-product-management-process/e.png)
+![Setting up a product management process: Uncertainty](./book/media/setting-up-a-product-management-process/e.png)
 
 A two week cycle also provides a great opportunity for the Backlog Grooming
 every other week, which is the second meeting of the Sprint Cycle, during which
@@ -234,7 +234,7 @@ provide feedback. Here again is where Trello really shines as a tool for product
 management: the discussion feature and the check lists are great for keeping
 track of the progress of each story.
 
-![Setting up a product management process: Sprint Trello Board](./media/setting-up-a-product-management-process/t3.png)
+![Setting up a product management process: Sprint Trello Board](./book/media/setting-up-a-product-management-process/t3.png)
 
 The Sprint board is also used to track bugs, which don’t follow the typical
 lifecycle of a story. Each of them is represented by a dedicated card in Trello

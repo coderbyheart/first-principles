@@ -29,7 +29,7 @@ thought process and engage in true problem analysis (using _System 2_ thinking).
 
 It can be visualized using this flow chart:
 
-![5 whys](./media/five-whys-flowchart.svg)
+![5 whys](./book/media/five-whys-flowchart.svg)
 
 The _root cause_ can be reached immediately after the first question, or require
 more than 5 iterations. What's needed is the persistence to ask the right
@@ -65,7 +65,7 @@ uncovering fundamental truths takes practice, but always delivers.
 ## Literature
 
 - Buffer Open: The 5 Whys Process We Use to Understand the Root of Any Problem:  
-  <https://buffer.com/./media/5-whys-process/>
+  <https://buffer.com/./book/media/5-whys-process/>
 - Daniel Kahneman: Thinking, Fast and Slow  
   <https://www.nytimes.com/2011/11/27/books/review/thinking-fast-and-slow-by-daniel-kahneman-book-review.html>
 - Wikipedia: Five whys
