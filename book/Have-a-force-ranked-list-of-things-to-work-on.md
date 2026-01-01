@@ -2,30 +2,24 @@
 
 # Have a force ranked list of things to work on {#what-to-work-on}
 
-## How I approach problems
-
-1. Look at the problem from the user's point of view.  
-   → write down the _User Story_ [^user-story], this becomes the source for the acceptance test(s).
-1. Collect all interaction within the system that are affected, and not down new ones. Use Domain Driven Design [^ddd] principles: which _Actor(s)_ cause which _Entities_ to change/appear through which _Events_?  
-   → write it down as a _Domain Story_ [^domain-story].
-1. Collect all the systems that are affected by the problem, and figure out which existing systems to re-use and modify and which new systems to introduce to solve it.
-   → write it down as a _technical concept_ [^rfc].
-1. Prioritize the needed changes and find the smallest useful set to get to a working release.
-   → Repeat until done [^slap].
-
 The way I design the process that supports one key
 operation in every startup: improving the technology which delivers value to
 customers—or should, if you are working towards signing your first customer.
 
 The can be only one priority, having multiple priorities is an anti-pattern and is a result of missing clarity: the vision needs to map to a well defined set of objectives (and key results) which again map to missions.
 
-<small>_This post is part of the **MVPs in Production** series. Be sure to make
-yourself familiar with the context I've set
-[in the introduction](/mvps-in-production/)._</small>
+## How I approach problems
 
-In this post I will explain the way I design the process that supports one key
-operation in every startup: improving the technology which delivers value to
-customers—or should, if you are working towards signing your first customer.
+1. Look at the problem from the user's point of view.  
+   → write down the _User Story_ [^user-story], this becomes the source for the acceptance test(s).
+1. Collect all interaction within the system that are affected, and not down new ones. Use Domain Driven Design [^ddd] principles: which _Actor(s)_ cause which _Entities_ to change/appear through which _Events_?  
+   → write it down as a _Domain Story_ [^domain-story].
+1. Collect all the systems that are affected by the problem, and figure out which existing systems to re-use and modify and which new systems to introduce to solve it.  
+   → write it down as a _technical concept_ [^rfc].
+1. Prioritize the needed changes and find the smallest useful set to get to a working release.  
+   → Repeat until done [^slap].
+
+## Maximize time between interruptions
 
 The driving principles are two opposing needs: maximizing uninterrupted time and
 agility. Developers would love to work uninterrupted for days and weeks, and
@@ -51,7 +45,7 @@ reached the next release day. Bugs have to be fixed immediately, if they are
 significant that is, of course. A bug that affects potentially all users like a
 logical error or one that corrupts data must be fixed immediately. A browser bug
 that makes a button unclickable for 10% of your users should be fixed within one
-business day<sup>1</sup>. In any case, you will be fixing bugs every other day,
+business day.[^unimportant-bugs] In any case, you will be fixing bugs every other day,
 and a bugfix means: releasing a new version.
 
 Everybody that changes code, should be able to release a new version, and
@@ -63,7 +57,7 @@ experts when you need them … But you can turn this to your advantage, liberate
 yourself from the “review” step by the story owner and let your customers have a
 go at a new feature. Their behaviour will tell you if a feature works or needs
 more work. There are techniques to limit the blast radius if something goes
-wrong, which I’ll talk about in another chapter.
+wrong, which I’ll talk about in a later chapter.
 
 Since the developers own the operation of their features and they are the only
 ones that can judge if a feature is ready to deploy or a bug is fixed, it would
@@ -86,11 +80,12 @@ software, especially one that has never been built before: all attempts to pick
 a done-date are futile and these dates are dead Schrödinger’s cats: as long as
 you don’t open the box they are still dead, but they don’t smell.
 
-<small><sup>1</sup> And the obscure IE bug which affects less than 3% of your
-users, can be safely ignored, until you really have nothing better to do, or
-these users switch to a different browser. It’s important to understand how
-excluding a certain amount of users translate into lost revenue and making an
-educated decision whether fixing that bug has a return on invest.</small>
+[^unimportant-bugs]:
+    And the obscure IE bug which affects less than 3% of your
+    users, can be safely ignored, until you really have nothing better to do, or
+    these users switch to a different browser. It’s important to understand how
+    excluding a certain amount of users translate into lost revenue and making an
+    educated decision whether fixing that bug has a return on invest.
 
 ## Stories, not Issues
 
@@ -120,7 +115,7 @@ that each topic has it’s purpose and having stories that are never making it
 into the Sprint is easier understood, if they are constantly on top of their
 Topic list.
 
-![Setting up a product management process: Backlog Trello Board](./book/media/setting-up-a-product-management-process/t1.png)
+![Backlog Trello Board](./book/media/setting-up-a-product-management-process/t1.png)
 
 Since we are using an approach inspired by Kanban, the most important Stories
 must be at the top of each Topic list. Typically I have a dedicated Owner per
@@ -146,7 +141,7 @@ preconditions have emerged.
 
 Try to not use it as a scratch board for personal ideas. Stories that make it to
 the board should at least have a clear purpose and more important a clear value
-proposition attached: if we do X how will that affect our revenue<sup>2</sup>?
+proposition attached: if we do X how will that affect our revenue? [^john-cutler-16-questions]
 As a Topic Owner look out for one-liners, nice-to-haves and use labels to mark
 these and follow up with the story owners to fill in the blanks. If they can’t,
 do not hesitate to remove these stories, because they are either unimportant or
@@ -162,9 +157,10 @@ planning. This way they can collect ideas and organize them in a way that allows
 more freedom and is more germane to their preferred work style. They would then
 move Stories they want to be implemented next into the Backlog board.
 
-<small><sup>2</sup> [John Cutler](https://twitter.com/johncutlefish) has a
-[great set of questions](https://medium.com/@johnpcutler/answer-these-16-questions-about-your-roadmap-items-717bb9e7978f)
-to consider.</small>
+[^john-cutler-16-questions]:
+    John Cutler has a
+    great set of questions
+    to consider: <https://medium.com/@johnpcutler/answer-these-john-cutler-16-questions-about-your-roadmap-items-717bb9e7978f>
 
 ## The Sprint Planning
 
@@ -186,7 +182,7 @@ them again in order of priority. At this point we would also discuss—given the
 expected capacity of the next two weeks—which of those stories we feel confident
 in building.
 
-![Setting up a product management process: Backlog Trello Board](./book/media/setting-up-a-product-management-process/t2.png)
+![Backlog Trello Board](./book/media/setting-up-a-product-management-process/t2.png)
 
 And two weeks is just the horizon I feel comfortable predicting. Four weeks is
 ages and given that most stories are really hard to estimate because most of the
@@ -196,7 +192,7 @@ other hand is too short to really get stuff done because for any given week
 there may be just one or two days where you can manage to focus on one task for
 half a day.
 
-![Setting up a product management process: Uncertainty](./book/media/setting-up-a-product-management-process/e.png)
+![Uncertainty](./book/media/setting-up-a-product-management-process/e.png)
 
 A two week cycle also provides a great opportunity for the Backlog Grooming
 every other week, which is the second meeting of the Sprint Cycle, during which
@@ -234,7 +230,7 @@ provide feedback. Here again is where Trello really shines as a tool for product
 management: the discussion feature and the check lists are great for keeping
 track of the progress of each story.
 
-![Setting up a product management process: Sprint Trello Board](./book/media/setting-up-a-product-management-process/t3.png)
+![Sprint Trello Board](./book/media/setting-up-a-product-management-process/t3.png)
 
 The Sprint board is also used to track bugs, which don’t follow the typical
 lifecycle of a story. Each of them is represented by a dedicated card in Trello
