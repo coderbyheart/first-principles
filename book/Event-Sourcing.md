@@ -4,7 +4,7 @@
 
 High level reasons why I want ES:
 
-- fits very well Domain Driven Design [^ddd], having events is very close to natural language, CRUD on tables is not.
+- fits very well Domain Driven Design[^ddd], having events is very close to natural language, CRUD on tables is not.
 - enables to build highly specialized (and therefore fast) read models while not prescribing a certain storage solution
 - no more DB schema migrations, the data model can easily be extended and changed
 - all changes are recorded, therefore answering questions about any kind of activity is very easy to add and can be answered retrospectively

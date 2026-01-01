@@ -15,7 +15,7 @@ _More specifically, outside-in TDD with end-to-end BDD tests._
 > – Because changing software has become difficult and risky.
 > – Why?
 > – Because we don’t write tests.
-> — _Eduard Sizov_ [^status-1381633331230601221]
+> — _Eduard Sizov_[^status-1381633331230601221]
 
 Write tests.
 
@@ -35,7 +35,7 @@ End-to-end tests are not tied to the implementation and during refactoring one c
 
 This also provides an easily grokable description of the working and implemented projects features in one folder (example).
 
-Here is a talk I gave about this topic. [^e2e-talk]
+Here is a talk I gave about this topic.[^e2e-talk]
 
 ## Literature
 

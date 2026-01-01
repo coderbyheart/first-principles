@@ -8,7 +8,7 @@ Serverless not only enables horizontal scalability, but allows to update each co
 
 There are downsides:
 
-- Being a quality fanatic, testing cloud-native solutions really is a challenge. You can see my talk about that topic here [^e2e-talk]
+- Being a quality fanatic, testing cloud-native solutions really is a challenge. You can see my talk about that topic here[^e2e-talk]
 - In general, there is more ceremony involved in getting a development environment running, compared to a LAMP/MAMP stack based solution which a developer can run locally.
 - It is a huge mindset shift from the classical application server model (LAMP, Tomcat, Rails), to a serverless, stateless, eventual consistent application development model, which you need to embrace and handle in the entire stack, when you want to optimize for scalability.
 

@@ -2,7 +2,7 @@
 
 # Ubiquitous Language: Why It Matters in My Software Development
 
-I try to apply the Ubiquitous Language [^ul] idea consistently across my projects.
+I try to apply the Ubiquitous Language[^ul] idea consistently across my projects.
 
 ## What Is Ubiquitous Language?
 

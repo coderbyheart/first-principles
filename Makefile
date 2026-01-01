@@ -1,4 +1,4 @@
-gut-feeling.pdf: Makefile book/*.md book/*.txt book/media/*
+gut-feelings-first-principles-of-a-software-crafter-markus-tacker.pdf: Makefile book/*.md book/*.txt book/media/*
 	pandoc \
 		--pdf-engine=xelatex \
 		--from markdown+tex_math_dollars+header_attributes \

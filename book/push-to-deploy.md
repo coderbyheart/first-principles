@@ -36,7 +36,7 @@ later posts.
 ## busFactor = $∞$
 
 Push to deploy is a way to increase the
-bus factor [^bus-factor] significantly. It allows
+bus factor[^bus-factor] significantly. It allows
 me to go on vacation. By actively moving knowledge into code, I also enable
 colleagues to learn _how_ things are done and work together.
 

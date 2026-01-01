@@ -4,7 +4,7 @@
 
 _How can we share the gut feeling we use when writing software?_
 
-A question I brought to SoCraTes 2018 [^socrates-2018]
+A question I brought to SoCraTes 2018[^socrates-2018]
 was one that formed in the recent months when I was onboarding a new developer
 to a greenfield project. The project they going to work on is developed as a
 [walking skeleton](#walking-skeleton).
@@ -38,7 +38,7 @@ In this session I listed mine and we collected some more:
 - Code Stewardship
 
 While some of those are fairly easy to explain (like S.O.L.I.D. where extensive
-documentation can easily be found [^solid]),
+documentation can easily be found[^solid]),
 others are horribly ambiguous, like _Simplicity_.
 
 In the course of the session we then collected, how principles are shared within
@@ -80,5 +80,5 @@ we should drop it. (The number of times a principle has been violated will be a
 good indicator!).
 
 I for myself have now started to collect first principles
-in a public repository [^first-principles-issues],
+in a public repository[^first-principles-issues],
 which will serve as a base for our internal collection.
