@@ -23,6 +23,7 @@ gut-feelings-first-principles-of-a-software-crafter-markus-tacker.pdf: Makefile 
 		book/CQRS.md \
 		book/Hexagonal-Architecture.md \
 		book/12-factor-app.md \
+		book/Reproducible-Builds.md \
 		book/No-monorepos.md \
 		book/Short-lived-branches.md \
 		book/Go-serverless.md \
