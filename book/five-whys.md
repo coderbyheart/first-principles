@@ -27,9 +27,9 @@ calls this _System 1_ in his book _Thinking, Fast and Slow_.
 The _5 whys_ method is a deliberate process to break out of this simplified
 thought process and engage in true problem analysis (using _System 2_ thinking).
 
-It can be visualized using this flow chart:
+It can be visualized using the flow chart shown in [Figure @fig:five-whys].
 
-![5 whys](./book/media/five-whys-flowchart.svg)
+![5 whys](./book/media/five-whys-flowchart.svg){#fig:five-whys}
 
 The _root cause_ can be reached immediately after the first question, or require
 more than 5 iterations. What's needed is the persistence to ask the right

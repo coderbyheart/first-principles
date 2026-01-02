@@ -21,9 +21,7 @@ projects, so there is not _one school_ of thought, but a amalgamation of
 hundreds of resources and experiences that form the principles that influence my
 decisions.
 
-But what _are_ First Principles?
-
-![Session Notes](./book/media/first-principles-session-notes.jpg)
+## But what _are_ First Principles?
 
 In this session I listed mine and we collected some more:
 
@@ -59,17 +57,15 @@ system. It provides an easy way to regularly revisit these decisions after a
 certain amount of time has passed and decide again whether to keep it or get rid
 of it.
 
-![Process](./book/media/how-to-convey-first-principles.jpg)
-
 I was also looking for a way to provide documentation about _First Principles_
 before code is written, especially to reduce frustration during code-reviews
 when a violation of a principle is discovered and big changes are neccessary in
 order to heal the pull-request.
 
 Following the idea of continuous improvement (I think this is yet another First
-Principle) I will try to follow this process:
+Principle) I will try to follow the process outlined in [Figure @fig:convey-flowchart].
 
-![Documenting First Principles](./book/media/convey-flowchart.png)
+![Documenting First Principles](./book/media/convey-flowchart.png){#fig:convey-flowchart}
 
 This will lead over time to a collection of _First Principles_ which can be used
 to train new developers.
@@ -79,6 +75,6 @@ like _Simplicity_—if you can't train it, it is most likely a bad principle and
 we should drop it. (The number of times a principle has been violated will be a
 good indicator!).
 
-I for myself have now started to collect first principles
+I for myself started with a collection of first principles
 in a public repository[^first-principles-issues],
-which will serve as a base for our internal collection.
+which served as the basis for this book.
