@@ -12,4 +12,6 @@ I hope you will find some of them useful.
 
 ## Feedback
 
-Please do not hesitate to share your feedback with me, you can find my contact details on my homepage[^homepage] or write me an email to gut-feelings@coderbyheart.com.
+Please do not hesitate to share your feedback with me, you can find my contact details on my homepage[^homepage] or write me an email to:
+
+[`gut-feelings@coderbyheart.com`](mailto:gut-feelings@coderbyheart.com)
