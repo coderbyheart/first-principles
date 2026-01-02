@@ -18,7 +18,7 @@
 
 [^socrates-2018]: <https://coderbyheart.com/socrates-2018>
 
-[^solid]: <https://en.wikipedia.org/wiki/SOLID>
+[^solid]: <https://en.wikipedia.org/wiki/SOLID>. Note that SOLID is not a principle that should be tought verbatim because it is too dogmatic. In my experience it leads to overly complex code.
 
 [^first-principles-issues]: <https://github.com/coderbyheart/first-principles/issues>
 

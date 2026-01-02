@@ -28,7 +28,7 @@ But what _are_ First Principles?
 In this session I listed mine and we collected some more:
 
 - Push to deploy
-- S.O.L.I.D.
+- SOLID
 - No global state
 - No monolith
 - Version dependencies
@@ -37,7 +37,7 @@ In this session I listed mine and we collected some more:
 - Show > Tell
 - Code Stewardship
 
-While some of those are fairly easy to explain (like S.O.L.I.D. where extensive
+While some of those are fairly easy to explain (like SOLID where extensive
 documentation can easily be found[^solid]),
 others are horribly ambiguous, like _Simplicity_.
 
