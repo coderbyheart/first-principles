@@ -21,7 +21,6 @@ gut-feelings-first-principles-of-a-software-crafter-markus-tacker.pdf: Makefile 
 		book/TDD.md \
 		book/zero-bug-policy.md \
 		book/Event-Sourcing.md \
-		book/Separate-workflows-through-events.md \
 		book/CQRS.md \
 		book/Hexagonal-Architecture.md \
 		book/12-factor-app.md \
