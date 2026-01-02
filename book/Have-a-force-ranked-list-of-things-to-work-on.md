@@ -1,6 +1,6 @@
 \newpage
 
-# Have a force ranked list of things to work on {#what-to-work-on}
+# Have a force ranked list of things to work on {#sec:what-to-work-on}
 
 The way I design the process that supports one key
 operation in every startup: improving the technology which delivers value to
@@ -212,8 +212,8 @@ progress of the product development fresh and reduce discussions to a minimum.
 
 If you have every tried finding a lunch date for five people, try rescheduling
 that date: impossible. That’s why you stick to the meeting schedule, no matter
-what. You start the meeting on point and everyone [receives the meeting notes
-afterwards](#pre-written-meeting-minutes). Preparation is key and if the backlog board is managed
+what. You start the meeting on point and everyone receives the meeting notes
+afterwards (see [chapter @sec:pre-written-meeting-minutes] _Pre-written meeting notes_). Preparation is key and if the backlog board is managed
 well, the result of the sprint planning won’t be a surprise.
 
 ## The Sprint

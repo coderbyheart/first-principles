@@ -1,6 +1,6 @@
 \newpage
 
-# Wishful Thinking: An Outside‑In Approach to Simpler Software {#wishful-thinking}
+# Wishful Thinking: An Outside‑In Approach to Simpler Software {#sec:wishful-thinking}
 
 _Start with outside-in TDD to arrive at the most minimal API that implements the business needs of the feature you are building using the domain language._
 

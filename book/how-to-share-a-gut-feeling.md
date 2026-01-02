@@ -7,7 +7,7 @@ _How can we share the gut feeling we use when writing software?_
 A question I brought to SoCraTes 2018[^socrates-2018]
 was one that formed in the recent months when I was onboarding a new developer
 to a greenfield project. The project they going to work on is developed as a
-[walking skeleton](#walking-skeleton).
+_Walking Skeleton_ (see [chapter @sec:walking-skeleton]).
 Although the architecture is complete, there is not enough flesh on it to
 clearly see the _patterns_ I have used when designing it. Right now every
 component looks like a unicorn and it is hard to see the underlying principles

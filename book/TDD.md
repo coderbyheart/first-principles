@@ -1,20 +1,20 @@
 \newpage
 
-# Test Driven Development (TDD) {#tdd}
+# Test Driven Development (TDD) {#sec:tdd}
 
 _More specifically, outside-in TDD with end-to-end BDD tests._
 
-> – We don't write tests.
-> – Why?
-> – Because we don’t have time for it.
-> – Why?
-> – Because there is too much work and pressure.
-> – Why?
-> – Because we don’t move fast enough.
-> – Why?
-> – Because changing software has become difficult and risky.
-> – Why?
-> – Because we don’t write tests.
+> – We don't write tests.  
+> – Why?  
+> – Because we don’t have time for it.  
+> – Why?  
+> – Because there is too much work and pressure.  
+> – Why?  
+> – Because we don’t move fast enough.  
+> – Why?  
+> – Because changing software has become difficult and risky.  
+> – Why?  
+> – Because we don’t write tests.  
 > — _Eduard Sizov_[^status-1381633331230601221]
 
 Write tests.

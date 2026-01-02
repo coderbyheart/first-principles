@@ -38,4 +38,4 @@ class TransactionalMailer {
 }
 ```
 
-This is enabled by implementing [Event Sourcing](#event-sourcing).
+This is enabled by implementing Event Sourcing (see [chapter @sec:event-sourcing]).

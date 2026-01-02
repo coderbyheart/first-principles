@@ -1,3 +1,3 @@
 \newpage
 
-# Zero bug policy {#zero-bug-policy}
+# Zero bug policy {#sec:zero-bug-policy}
