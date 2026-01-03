@@ -1,6 +1,6 @@
 \newpage
 
-# About the book
+# About the book {-}
 
 A question I brought to SoCraTes 2018[^socrates-2018] was one that formed in the recent months when I was onboarding a new developer to a greenfield project. The project they were going to work on is developed as a walking skeleton. Although the architecture is complete, there is not enough flesh on it to clearly see the patterns I have used when designing it. Right now every component looks like a unicorn and it is hard to see the underlying principles that went into the design—simply because there is not enough code to provide good heuristics.
 
@@ -10,7 +10,7 @@ In this book I have tried to document these first principles that I employ when 
 
 I hope you will find some of them useful.
 
-## Use of LLMs in writing this book
+## Use of LLMs in writing this book {-}
 
 This book has been written by me, but with the help of LLMs [^llms].
 
@@ -18,7 +18,7 @@ I've used a voice recorder software to record some of the chapters and then use 
 
 LLMs were not used to write chapters based on prompts.
 
-## Feedback
+## Feedback {-}
 
 Please do not hesitate to share your feedback with me, you can find my contact details on my homepage[^homepage] or write me an email to:
 

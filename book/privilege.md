@@ -2,7 +2,7 @@
 
 # Privilege
 
-_A reflection on my principles is not possible without acknowledging my privileges._
+_My privileges are many, and I greatly benefited from them._
 
 There are thousands of publications that aim to provide a concrete step by step
 guide to teach you how to improve _X_. That is not my goal for writing down my
@@ -13,7 +13,7 @@ daily work as a human working with other humans, earning their living through
 collaborating with others humans on coercing machines into providing more value
 than pain.
 
-> Privilege is a performance enhancing drug.
+> Privilege is a performance enhancing drug.  
 > — _Dr. Ayoade Alakija_[^status-1480702460465451016]
 
 I've been given the privilege to very early discover that I could turn my
@@ -40,8 +40,6 @@ pointless professional relationship.
 I am free of kids, which gives a tremendous amount of additional resources to
 invest in my skills (like writing this blog post). I never needed to reduce the
 level of commitment to my career because of children.
-
-## My privileges are many, and I greatly benefited from them.
 
 In knowing my privileges, and respecting the opportunities they have given me, I
 thrive to treat others _not_ as equals, because very few had the same privileges

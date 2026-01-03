@@ -1,6 +1,6 @@
 \newpage
 
-# How to share gut feeling
+# How to share gut feeling {-}
 
 _How can we share the gut feeling we use when writing software?_
 
@@ -20,8 +20,6 @@ are a result of reading books, articles and building many different software
 projects, so there is not _one school_ of thought, but a amalgamation of
 hundreds of resources and experiences that form the principles that influence my
 decisions.
-
-## But what _are_ First Principles?
 
 In this session I listed mine and we collected some more:
 

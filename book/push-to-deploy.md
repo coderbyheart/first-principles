@@ -33,7 +33,7 @@ analysis and others to ensure that run-time defects to not happen often and that
 a change. Those are first-principles in their own right which I will focus in
 later posts.
 
-## busFactor = $∞$
+## busFactor = $∞$ {-}
 
 Push to deploy is a way to increase the
 bus factor[^bus-factor] significantly. It allows
