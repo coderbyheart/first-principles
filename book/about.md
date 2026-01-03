@@ -10,8 +10,18 @@ In this book I have tried to document these first principles that I employ when 
 
 I hope you will find some of them useful.
 
+## Use of LLMs in writing this book
+
+This book has been written by me, but with the help of LLMs [^llms].
+
+I've used a voice recorder software to record some of the chapters and then use the transcription of that with LLMs to produce the first draft of a chapter which was then used as input for the final chapter.
+
+LLMs were not used to write chapters based on prompts.
+
 ## Feedback
 
 Please do not hesitate to share your feedback with me, you can find my contact details on my homepage[^homepage] or write me an email to:
 
 [`gut-feelings@coderbyheart.com`](mailto:gut-feelings@coderbyheart.com)
+
+[^llms]: Large Language Models, also known as AI.
