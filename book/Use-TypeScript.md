@@ -18,7 +18,7 @@ In most organizations I’ve seen, the back‑end lives in its own repository, c
 
 To address this, I created a small **protocol repository.”** This repo houses the domain objects that travel back and forth between client and server, along with the validation rules that apply to them. By centralising these definitions, we eliminate the need to keep two sets of typings in sync.
 
-For runtime validation I rely on **[TypeBox](https://github.com/sinclairzx81/typebox)**, which generates performant validators from JSON Schema definitions. While JSON Schema isn’t perfect—it struggles with complex inter‑field dependencies—it covers roughly **98 %** of our needs. When we encounter edge cases, we augment the schema with custom TypeScript code that enforces the more intricate business rules.
+For runtime validation I rely on **TypeBox** [^typebox], which generates performant validators from JSON Schema definitions. While JSON Schema isn’t perfect—it struggles with complex inter‑field dependencies—it covers roughly **98 %** of our needs. When we encounter edge cases, we augment the schema with custom TypeScript code that enforces the more intricate business rules.
 
 ## Benefits of a Single Language Stack
 
@@ -42,3 +42,5 @@ In short, having one implementation language from the database layer all the way
 [^ts-announcement]: <https://devblogs.microsoft.com/typescript/announcing-typescript-4-5/>
 
 [^serverless-tr]: <https://www.thoughtworks.com/radar/techniques/serverless-architecture>
+
+[^typebox]: <https://github.com/sinclairzx81/typebox>
