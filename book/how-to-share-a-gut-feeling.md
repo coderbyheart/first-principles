@@ -51,7 +51,7 @@ Multiple participants shared that they had good experiences using an internal
 Stackoverflow (or a home-grown solution similar to that), where developers would
 bring up principles they discover or certain implementation details they did not
 fully understand so it could be discussed what the underlying principle was, and
-whether it still applies. This forum-style aproach can also serves as a good way
+whether it still applies. This forum-style approach can also serves as a good way
 to document technical dept, and the decisions that lead to keeping it in the
 system. It provides an easy way to regularly revisit these decisions after a
 certain amount of time has passed and decide again whether to keep it or get rid
@@ -59,7 +59,7 @@ of it.
 
 I was also looking for a way to provide documentation about _First Principles_
 before code is written, especially to reduce frustration during code-reviews
-when a violation of a principle is discovered and big changes are neccessary in
+when a violation of a principle is discovered and big changes are necessary in
 order to heal the pull-request.
 
 Following the idea of continuous improvement (I think this is yet another First

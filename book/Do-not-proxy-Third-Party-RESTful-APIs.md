@@ -28,4 +28,4 @@ Depending on the use case, the ACME service is responsible for regularly fetchin
 
 This has the advantage that there is no way of flooding the third party API, since the ACME service can throttle requests.
 
-[^step-functions]: https://aws.amazon.com/step-functions/
+[^step-functions]: <https://aws.amazon.com/step-functions/>

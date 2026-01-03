@@ -18,14 +18,14 @@ which have to be executed in a specific order. Computers are great at this, they
 have an unlimited amount of patience and are perfect at executing instructions
 in a given order.
 
-Automating deployment processes implictly creates _living documentation_ of the
+Automating deployment processes implicitly creates _living documentation_ of the
 systems needed to put changes in front of consumers, and therefore adds
 resilience to any software project. The instructions how to deploy the project
 are always up to date, because they _do_ the deployment.
 
 I spent a significant amount of time in enabling and maintaining deployments,
 however in my experience is this time wisely invested in times where I could
-plan it, and allowes me to move fast in times of crisis.
+plan it, and allows me to move fast in times of crisis.
 
 _Push to deploy_ requires _confidence to deploy_. This confidence is created by
 using techniques like test-driven-development, end-to-end testing, static code

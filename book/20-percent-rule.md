@@ -10,7 +10,7 @@ When a developer reaches a point where every task feels like a rehearsal, two th
 
 The core idea is simple: reserve a single, bounded experiment in each project. Treat it as a controlled variable in an otherwise stable system. Here’s how it works in practice.
 
-In a bigger project, I pick one aspect that I would like to implement using a technology that I am not familiar with, for example using event sourcing, where I have limited expecrience, instead of CRUD, which I have used for the last ten projects.
+In a bigger project, I pick one aspect that I would like to implement using a technology that I am not familiar with, for example using event sourcing, where I have limited experience, instead of CRUD, which I have used for the last ten projects.
 
 A practical rule of thumb is to aim for no more than a 20 % increase in overall project risk. This figure accounts for the extra time needed to integrate, test, and possibly roll back the experiment.
 

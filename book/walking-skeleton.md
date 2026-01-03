@@ -22,7 +22,7 @@ When the time comes to launch the full product, the transition from “walking s
 
 It also happens more often than not, that priorities change and we need to stop working on this project. And if you don't have essential aspects like authentication, which could be easily considered as only needed for the production roll-out and added as one of the last aspects, then you cannot actually put this state into production. You may have a working piece of software that can manage your business logic, but without authentication, you cannot deploy it for customers. But if you have an end-to-end implemented piece of software and that implements at least some of the features that were required, there might be just a small effort needed to get it out into production and start producing value.
 
-_Walking Skeletons_ reduce the likelyhood of your project not delivering value.
+_Walking Skeletons_ reduce the likelihood of your project not delivering value.
 
 ## Literature
 
