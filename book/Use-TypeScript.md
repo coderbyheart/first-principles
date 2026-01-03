@@ -12,17 +12,11 @@ I see good things happening in teams where traditional frontend and backend deve
 
 Second: multi-threading does not matter in serverless compute environment where functions do one thing and are killed of regularly. They don't have serverless on the radar, yet.[^serverless-tr]
 
-## Why I’m Excited About Using TypeScript End‑to‑End
-
 When I first started thinking about how to streamline development across the front‑end and back‑end, it became clear that a single language could solve many of the friction points we face daily. That’s why I’m such a fan of **TypeScript**—it lets us share code, validation logic, and tooling between the client and the server with minimal overhead.
-
-## A Unified Repository Model
 
 In most organizations I’ve seen, the back‑end lives in its own repository, containing a Node.js (or other) server implementation, while the front‑end sits in a separate repo with a React codebase. Both are usually written in JavaScript, which means we end up duplicating types, validation rules, and even some business logic.
 
-To address this, I created a small **“portal repository.”** This repo houses the domain objects that travel back and forth between client and server, along with the validation rules that apply to them. By centralising these definitions, we eliminate the need to keep two sets of typings in sync.
-
-## Validation with TypeBox and JSON Schema
+To address this, I created a small **protocol repository.”** This repo houses the domain objects that travel back and forth between client and server, along with the validation rules that apply to them. By centralising these definitions, we eliminate the need to keep two sets of typings in sync.
 
 For runtime validation I rely on **[TypeBox](https://github.com/sinclairzx81/typebox)**, which generates performant validators from JSON Schema definitions. While JSON Schema isn’t perfect—it struggles with complex inter‑field dependencies—it covers roughly **98 %** of our needs. When we encounter edge cases, we augment the schema with custom TypeScript code that enforces the more intricate business rules.
 

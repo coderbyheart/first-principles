@@ -30,6 +30,7 @@ This allows us to be more flexible in the way we process writes and can start wi
 
 Instead, offer the a way to subscribe to events which notify it if the item has been created. It can also poll the list of items.
 
-## Further reading
+## Literature
 
-- [Mistakes we made adopting event sourcing (and how we recovered)](http://natpryce.com/articles/000819.html)
+- Mistakes we made adopting event sourcing (and how we recovered):  
+  <http://natpryce.com/articles/000819.html>
