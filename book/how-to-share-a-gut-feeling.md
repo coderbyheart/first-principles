@@ -3,7 +3,7 @@
 _How can we share the gut feeling we use when writing software?_
 
 A question I brought to SoCraTes 2018 [^socrates-2018]
-was one that formed in the recent months when I was onboarding a new developer
+was one that formed in the months prior when I was onboarding a new developer
 to a greenfield project. The project they going to work on is developed as a
 [_Walking Skeleton_](#walking-skeleton).
 Although the architecture is complete, there is not enough flesh on it to
