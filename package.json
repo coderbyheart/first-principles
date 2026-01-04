@@ -22,7 +22,7 @@
     "npm": ">=10"
   },
   "lint-staged": {
-    "*.{md,json,yaml,yml}": [
+    "*.{md,json,yaml,yml,css}": [
       "prettier --write"
     ]
   },
