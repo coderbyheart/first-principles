@@ -15,3 +15,8 @@ Because the same terms appear throughout the code, any change to the business mo
 I acknowledge that generic abstractions are sometimes necessary. An annotation or utility that can store various aggregates—books, authors, etc.—is acceptable. However, even when I use such generic mechanisms, the concrete instances should retain their domain‑specific names. If an aggregate represents a Book, I call it “book” wherever possible.
 
 Embedding the business language directly into the implementation creates a clear, shared mental model for everyone involved, including myself. It minimizes translation errors between requirements and code, and it makes future modifications more straightforward. In short, the more places I can refer to a domain concept by its proper name, the healthier my project becomes.
+
+## Resources
+
+- Eric Evans: Domain-Driven Design (AKA the blue book)  
+  <https://www.oreilly.com/library/view/domain-driven-design-tackling/0321125215/>

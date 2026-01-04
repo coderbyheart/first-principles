@@ -31,7 +31,6 @@ gut-feelings-first-principles-of-a-software-crafter-markus-tacker.epub: Makefile
 		book/All-code-styleguides-must-be-enforceable-by-tools.md \
 		book/Flow-with-the-dependencies.md \
 		book/Books.md \
-		book/Videos.md \
 		book/acknowledgements.md \
 		book/Refs.md
 
@@ -66,6 +65,5 @@ gut-feelings-first-principles-of-a-software-crafter-markus-tacker.pdf: Makefile 
 		book/All-code-styleguides-must-be-enforceable-by-tools.md \
 		book/Flow-with-the-dependencies.md \
 		book/Books.md \
-		book/Videos.md \
 		book/acknowledgements.md \
 		book/Refs.md
