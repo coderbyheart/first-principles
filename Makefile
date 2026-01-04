@@ -11,6 +11,7 @@ gut-feelings-first-principles-of-a-software-crafter-markus-tacker.epub: Makefile
 		book/privilege.md \
 		book/five-whys.md \
 		book/push-to-deploy.md \
+		book/semantic-release.md \
 		book/20-percent-rule.md \
 		book/build-prototypes-instead-of-calling-a-meeting.md \
 		book/Have-a-force-ranked-list-of-things-to-work-on.md \
@@ -50,6 +51,7 @@ gut-feelings-first-principles-of-a-software-crafter-markus-tacker.pdf: Makefile 
 		book/privilege.md \
 		book/five-whys.md \
 		book/push-to-deploy.md \
+		book/semantic-release.md \
 		book/20-percent-rule.md \
 		book/build-prototypes-instead-of-calling-a-meeting.md \
 		book/Have-a-force-ranked-list-of-things-to-work-on.md \
