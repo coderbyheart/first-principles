@@ -1,5 +1,3 @@
-\newpage
-
 # Prototypes are better than 10,000 words in a meeting
 
 _No meeting, design document, or presentation can ever be as good as building a simple prototype of the thing we are trying to build._
@@ -8,7 +6,7 @@ In my career I have sat in very few meetings about a software project that felt 
 
 What has been truly satisfying for me where however building simple prototypes. For once because this is what I enjoy most: writing software. But also, because only then can all stakeholders use the same thing and discuss on a concrete deliverable if it fits their expectation or not.
 
-The other advantage of working prototypes is that they are already the first _Walking Skeleton_ (see [chapter @sec:walking-skeleton]) and can be use to set up the continuous delivery workflow (see [chapter @sec:push-to-deploy] _Push to Deploy_) for the project.
+The other advantage of working prototypes is that they are already the first [_Walking Skeleton_](#walking-skeleton) and can be use to set up the continuous delivery workflow (see [_Push to Deploy_](#push-to-deploy)) for the project.
 
 ## Using documents to design software is an anti-pattern
 
@@ -22,7 +20,7 @@ Third, these documents never expire and outdate quickly. They are available thro
 
 ## Lean proposals with a bias to start building
 
-I prefer to work on a proposal with only the people that have committed resources to the project to draft a rough document that outlines what should be built, and to agree on the timeframe. Identify any blockers and solve them, but then start to work on the real thing quickly. Use the working software to iterate, not the document. Read more about my preferred way to manage software development [chapter @sec:what-to-work-on]. Do use the bug tracker to record features. A bug tracker should have 0 open tickets (see [chapter @sec:zero-bug-policy] _Zero Bug Policy_).
+I prefer to work on a proposal with only the people that have committed resources to the project to draft a rough document that outlines what should be built, and to agree on the timeframe. Identify any blockers and solve them, but then start to work on the real thing quickly. Use the working software to iterate, not the document. Read more about my preferred way to manage software development in [_What to work on_](#what-to-work-on). Do use the bug tracker to record features. A bug tracker should have 0 open tickets (see [_Zero Bug Policy_](#zero-bug-policy)).
 
 ## Literature
 

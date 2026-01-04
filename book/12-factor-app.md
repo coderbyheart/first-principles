@@ -1,5 +1,3 @@
-\newpage
-
 # 12-factor app
 
 ## Literature

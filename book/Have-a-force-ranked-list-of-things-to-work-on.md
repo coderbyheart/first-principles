@@ -1,6 +1,4 @@
-\newpage
-
-# Have a force ranked list of things to work on {#sec:what-to-work-on}
+# Have a force ranked list of things to work on {#what-to-work-on}
 
 The way I design the process that supports one key
 operation in every startup: improving the technology which delivers value to
@@ -11,13 +9,13 @@ The can be only one priority, having multiple priorities is an anti-pattern and 
 ## How I approach problems
 
 1. Look at the problem from the user's point of view.  
-   → write down the _User Story_[^user-story], this becomes the source for the acceptance test(s).
-1. Collect all interaction within the system that are affected, and not down new ones. Use Domain Driven Design[^ddd] principles: which _Actor(s)_ cause which _Entities_ to change/appear through which _Events_?  
-   → write it down as a _Domain Story_[^domain-story].
+   → write down the _User Story_ [^user-story], this becomes the source for the acceptance test(s).
+1. Collect all interaction within the system that are affected, and not down new ones. Use Domain Driven Design [^ddd] principles: which _Actor(s)_ cause which _Entities_ to change/appear through which _Events_?  
+   → write it down as a _Domain Story_ [^domain-story].
 1. Collect all the systems that are affected by the problem, and figure out which existing systems to re-use and modify and which new systems to introduce to solve it.  
-   → write it down as a _technical concept_[^rfc].
+   → write it down as a _technical concept_ [^rfc].
 1. Prioritize the needed changes and find the smallest useful set to get to a working release.  
-   → Repeat until done[^slap].
+   → Repeat until done [^slap].
 
 ## Maximize time between interruptions
 
@@ -45,7 +43,7 @@ reached the next release day. Bugs have to be fixed immediately, if they are
 significant that is, of course. A bug that affects potentially all users like a
 logical error or one that corrupts data must be fixed immediately. A browser bug
 that makes a button unclickable for 10% of your users should be fixed within one
-business day.[^unimportant-bugs] In any case, you will be fixing bugs every other day,
+business day. [^unimportant-bugs] In any case, you will be fixing bugs every other day,
 and a bugfix means: releasing a new version.
 
 Everybody that changes code, should be able to release a new version, and
@@ -141,7 +139,7 @@ preconditions have emerged.
 
 Try to not use it as a scratch board for personal ideas. Stories that make it to
 the board should at least have a clear purpose and more important a clear value
-proposition attached: if we do X how will that affect our revenue?[^john-cutler-16-questions]
+proposition attached: if we do X how will that affect our revenue? [^john-cutler-16-questions]
 As a Topic Owner look out for one-liners, nice-to-haves and use labels to mark
 these and follow up with the story owners to fill in the blanks. If they can’t,
 do not hesitate to remove these stories, because they are either unimportant or
@@ -213,7 +211,8 @@ progress of the product development fresh and reduce discussions to a minimum.
 If you have every tried finding a lunch date for five people, try rescheduling
 that date: impossible. That’s why you stick to the meeting schedule, no matter
 what. You start the meeting on point and everyone receives the meeting notes
-afterwards (see [chapter @sec:pre-written-meeting-minutes] _Pre-written meeting notes_). Preparation is key and if the backlog board is managed
+afterwards (see [_Pre-written meeting notes_](#pre-written-meeting-minutes)).
+Preparation is key and if the backlog board is managed
 well, the result of the sprint planning won’t be a surprise.
 
 ## The Sprint

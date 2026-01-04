@@ -1,5 +1,3 @@
-\newpage
-
 # Books to read
 
 - REST in Practice  

@@ -1,5 +1,3 @@
-\newpage
-
 # CQRS
 
 Especially in serverless environments, there are often components which are by design eventual consistent (for example AWS IoT). It is not possible to expose these underlying services in with strong consistency without a huge impact on the time it takes to fulfill a request that applies changes those underlying components.

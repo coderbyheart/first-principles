@@ -1,5 +1,3 @@
-\newpage
-
 # Leadership
 
 ## Literature

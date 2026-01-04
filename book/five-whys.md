@@ -1,5 +1,3 @@
-\newpage
-
 # 5 whys
 
 _The 5 whys method is so powerful because of its simplicity ... but be careful not to come across as annoying when applying it. Showing persistence in uncovering fundamental truths about a thing takes practice, but always delivers._
@@ -27,9 +25,9 @@ calls this _System 1_ in his book _Thinking, Fast and Slow_.
 The _5 whys_ method is a deliberate process to break out of this simplified
 thought process and engage in true problem analysis (using _System 2_ thinking).
 
-It can be visualized using the flow chart shown in [Figure @fig:five-whys].
+It can be visualized using the flow chart shown in the _5 whys flow chart_.
 
-![5 whys](./book/media/five-whys-flowchart.svg){#fig:five-whys}
+![5 whys flow chart](./book/media/five-whys-flowchart.svg)
 
 The _root cause_ can be reached immediately after the first question, or require
 more than 5 iterations. What's needed is the persistence to ask the right

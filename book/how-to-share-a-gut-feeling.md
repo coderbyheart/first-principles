@@ -1,13 +1,11 @@
-\newpage
-
-# How to share gut feeling {-}
+# How to share gut feeling
 
 _How can we share the gut feeling we use when writing software?_
 
-A question I brought to SoCraTes 2018[^socrates-2018]
+A question I brought to SoCraTes 2018 [^socrates-2018]
 was one that formed in the recent months when I was onboarding a new developer
 to a greenfield project. The project they going to work on is developed as a
-_Walking Skeleton_ (see [chapter @sec:walking-skeleton]).
+[_Walking Skeleton_](#walking-skeleton).
 Although the architecture is complete, there is not enough flesh on it to
 clearly see the _patterns_ I have used when designing it. Right now every
 component looks like a unicorn and it is hard to see the underlying principles
@@ -34,7 +32,7 @@ In this session I listed mine and we collected some more:
 - Code Stewardship
 
 While some of those are fairly easy to explain (like SOLID where extensive
-documentation can easily be found[^solid]),
+documentation can easily be found [^solid]),
 others are horribly ambiguous, like _Simplicity_.
 
 In the course of the session we then collected, how principles are shared within
@@ -61,9 +59,9 @@ when a violation of a principle is discovered and big changes are necessary in
 order to heal the pull-request.
 
 Following the idea of continuous improvement (I think this is yet another First
-Principle) I will try to follow the process outlined in [Figure @fig:convey-flowchart].
+Principle) I will try to follow the process outlined in the _Documenting First Principles flow chart_
 
-![Documenting First Principles](./book/media/convey-flowchart.png){#fig:convey-flowchart}
+![Documenting First Principles flow chart](./book/media/convey-flowchart.png)
 
 This will lead over time to a collection of _First Principles_ which can be used
 to train new developers.
@@ -74,5 +72,5 @@ we should drop it. (The number of times a principle has been violated will be a
 good indicator!).
 
 I for myself started with a collection of first principles
-in a public repository[^first-principles-issues],
+in a public repository [^first-principles-issues],
 which served as the basis for this book.

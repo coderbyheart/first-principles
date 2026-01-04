@@ -1,8 +1,6 @@
-\newpage
-
 # Ubiquitous Language: Why It Matters in My Software Development
 
-I try to apply the Ubiquitous Language[^ul] idea consistently across my projects.
+I try to apply the Ubiquitous Language [^ul] idea consistently across my projects.
 
 Ubiquitous language is the shared vocabulary that I, together with domain experts and stakeholders, use when discussing a software system. It reflects the domain—the real‑world problem the software aims to solve—and I make sure it appears everywhere in the codebase.
 

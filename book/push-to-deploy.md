@@ -1,6 +1,4 @@
-\newpage
-
-# Push to deploy {#sec:push-to-deploy}
+# Push to deploy {#push-to-deploy}
 
 _The way to move quickly is to focus on adding value, not packaging it._
 
@@ -33,10 +31,10 @@ analysis and others to ensure that run-time defects to not happen often and that
 a change. Those are first-principles in their own right which I will focus in
 later posts.
 
-## busFactor = $∞$ {-}
+## busFactor = ∞
 
 Push to deploy is a way to increase the
-bus factor[^bus-factor] significantly. It allows
+bus factor [^bus-factor] significantly. It allows
 me to go on vacation. By actively moving knowledge into code, I also enable
 colleagues to learn _how_ things are done and work together.
 

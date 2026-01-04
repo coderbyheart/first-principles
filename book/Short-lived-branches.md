@@ -1,6 +1,4 @@
-\newpage
-
-# Short lived branches {#sec:trunk-based-development}
+# Short lived branches {#trunk-based-development}
 
 ## Literature
 

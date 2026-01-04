@@ -1,5 +1,3 @@
-\newpage
-
 # Reproducible builds
 
 ## Literature
