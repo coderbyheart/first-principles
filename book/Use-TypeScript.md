@@ -4,7 +4,7 @@ In their techradar ThoughtWorks adds "Node Overload: a tendency to use Node.js i
 
 I slightly disagree, especially the benefits of having the same programming language and tooling is very beneficial.
 
-> TypeScript, it’s a language that builds on JavaScript by adding statically checked types. When you use static types, you can run the TypeScript compiler to check for bugs like typos and mismatches in the shapes of your data, and get handy suggestions. These types don’t change your program, and you can remove them to leave you with clean, readable JavaScript. Going beyond catching bugs in your code, TypeScript also assists you in writing code because types can power useful tooling like auto-complete, go-to-definition, and renaming in your editor! [^ts-announcement]
+> TypeScript, it is a language that builds on JavaScript by adding statically checked types. When you use static types, you can run the TypeScript compiler to check for bugs like typos and mismatches in the shapes of your data, and get handy suggestions. These types don’t change your program, and you can remove them to leave you with clean, readable JavaScript. Going beyond catching bugs in your code, TypeScript also assists you in writing code because types can power useful tooling like auto-complete, go-to-definition, and renaming in your editor! [^ts-announcement]
 
 I see good things happening in teams where traditional frontend and backend developers are comfortable working with the other professions code, and even start to cross boundaries more and more.
 

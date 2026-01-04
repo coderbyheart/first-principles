@@ -47,10 +47,10 @@ business day. [^unimportant-bugs] In any case, you will be fixing bugs every oth
 and a bugfix means: releasing a new version.
 
 Everybody that changes code, should be able to release a new version, and
-observe how the feature or fix they’ve just released behaves when it’s used by
+observe how the feature or fix they’ve just released behaves when it is used by
 real users. And this is especially true for feature releases. In the last five
 years I have never seen the case where a new feature was thoroughly reviewed by
-the story owner because for the fact that it’s really hard to get hold of domain
+the story owner because for the fact that it is really hard to get hold of domain
 experts when you need them … But you can turn this to your advantage, liberate
 yourself from the “review” step by the story owner and let your customers have a
 go at a new feature. Their behaviour will tell you if a feature works or needs
@@ -61,7 +61,7 @@ Since the developers own the operation of their features and they are the only
 ones that can judge if a feature is ready to deploy or a bug is fixed, it would
 be counter-productive to release only at the end of every sprint. This only
 creates more opportunity for incompatible changes and merge hell. Also since
-they have just build the feature it’s easy to recollect where to look if
+they have just build the feature it is easy to recollect where to look if
 something does not work as expected.
 
 Bug fixing and feature development exist at the same time, and I found this to
@@ -81,7 +81,7 @@ you don’t open the box they are still dead, but they don’t smell.
 [^unimportant-bugs]:
     And the obscure IE bug which affects less than 3% of your
     users, can be safely ignored, until you really have nothing better to do, or
-    these users switch to a different browser. It’s important to understand how
+    these users switch to a different browser. it is important to understand how
     excluding a certain amount of users translate into lost revenue and making an
     educated decision whether fixing that bug has a return on invest.
 
@@ -99,17 +99,17 @@ Features that should be implemented are added to the Backlog board and contain a
 description that explains the user goals for this feature, and provides
 additional background information like wireframes and links to other concept
 work. Since Trello is not able to handle collaboration on a card’s description,
-I prefer to use Google Docs for writing concept documents. It’s live editing
+I prefer to use Google Docs for writing concept documents. it is live editing
 feature is superior to anything else I’ve used and combined with the commenting
-/ note feature it’s the best tool to write concept documents and even sketch
+/ note feature it is the best tool to write concept documents and even sketch
 pseudo code.
 
 Stories are organized in Topics: I have no clear rule for what makes a good
 topic, just that a natural clustering for Stories will automatically emerge. I
 typically have a Topic per product, for the website, for marketing. Because some
 Topics can create an endless stream of new stories, these could easily create
-the impression that they are more important. But it’s necessary to visualize
-that each topic has it’s purpose and having stories that are never making it
+the impression that they are more important. But it is necessary to visualize
+that each topic has it is purpose and having stories that are never making it
 into the Sprint is easier understood, if they are constantly on top of their
 Topic list.
 
@@ -144,7 +144,7 @@ As a Topic Owner look out for one-liners, nice-to-haves and use labels to mark
 these and follow up with the story owners to fill in the blanks. If they can’t,
 do not hesitate to remove these stories, because they are either unimportant or
 if not, will resurface at a later point in time. The biggest rule here is:
-listen to your users! A story is off to a bad start if it’s born out of a “I
+listen to your users! A story is off to a bad start if it is born out of a “I
 think we need X!” … your feature will be so much better if you work with a
 “Customer A said the would pay B for feature C”. If a story is missing a real
 customer (A), a letter of intent (B), or a clear user story (C), invest time in
@@ -166,7 +166,7 @@ Work on the Backlog is ongoing and happens every day. Having some kind of
 structure on the other hand is important, especially since coordinating
 calendars in startups is so complicated that the only way to fight this flea
 circus is to find a regular slot for planning meetings and stick to them no
-matter what. It’s essential for everyone involved in building the product to
+matter what. it is essential for everyone involved in building the product to
 sync up once a while—in my experience, no tool is able to completely eliminate
 synchronous meetings.
 
@@ -200,7 +200,7 @@ going into the next sprint.
 
 This meeting also provides a good opportunity to introduce new, important
 stories which need to be put on the fast lane, essentially trumping all other
-stories that are up next. This happens quite often and therefore it’s always
+stories that are up next. This happens quite often and therefore it is always
 good to have everybody aware about what features are in the pipeline and will be
 delayed if they are put on hold for another sprint. Solving these kinds of
 conflicts can’t be done through a tool (e.g. voting in Trello) but can only be
@@ -222,7 +222,7 @@ the Sprint Board’s To Do list. The owner of the Sprint Board is the
 development team and only they move cards around there. It also serves as a
 history record of the features that have been implemented. A story moves from
 the To Do list to the Doing list once developers start implementing it. When
-they deploy it to production, the card moves to Live. Live means “It’s public
+they deploy it to production, the card moves to Live. Live means “it is public
 but still needs some work”, this happens for so features which start as
 experiments and are getting polished while (some) of your real users use it and
 provide feedback. Here again is where Trello really shines as a tool for product
@@ -236,13 +236,13 @@ lifecycle of a story. Each of them is represented by a dedicated card in Trello
 but giving them a distinct label (I chose a red “Bug” one) makes them easy to
 find or filter out. Bugs don’t require the same exhaustive description like
 Stories do, because they are usually self-explanatory: A bug is when a feature
-does not behave as defined—which also means: it’s not a bug if it’s not defined.
+does not behave as defined—which also means: it is not a bug if it is not defined.
 Bug cards trump every other card in the To Do list and move quickly from there
 to Done. They should not hang around in the To Do column for more than a day.
 
 Once a story or bug is done—the definition of that highly depends on your
 individual requirements, but must be defined in a living document
-nevertheless—it’s moved to the Done list for the current month. Using this gives
+nevertheless—it is moved to the Done list for the current month. Using this gives
 you nice history of the things that happened and the monthly grouping makes it
 easy to recollect and find features to revisit them later, when you are
 reviewing how accurate the assumptions about the expected outcome were that you
@@ -257,7 +257,7 @@ recordings here greatly helps to easily understand what changed).
 … when your product is composed of microservices?  
 … when you had a feature for weeks for a selected group of users?
 
-It’s the point in time when you decide to activate a feature for all your users.
+it is the point in time when you decide to activate a feature for all your users.
 As mentioned earlier, the software release cycle is decoupled from the product
 management process. There is no need to orchestrate them but will just create
 more unnecessary coupling between collaborators who can perfectly work in their
@@ -267,11 +267,11 @@ The release of a feature is announced on the Story card and this is observable
 by anyone interested (who did subscribe to the card) and you would also post a
 message on the related Slack channels.
 
-## It’s a team effort
+## it is a team effort
 
 This way of managing a product allows everyone to get involved in the product
 development and the progress becomes observable and transparent without taking
-up too much time. It’s flexible and fosters a strong degree of self-organization
+up too much time. it is flexible and fosters a strong degree of self-organization
 within the whole team. Having one source of truth for everyone is a key factor
 in keeping everyone in the loop.
 
