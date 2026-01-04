@@ -275,7 +275,7 @@ up too much time. it is flexible and fosters a strong degree of self-organizatio
 within the whole team. Having one source of truth for everyone is a key factor
 in keeping everyone in the loop.
 
-## Literature
+## Resources
 
 - Sweary Lightweight Agile Planning
   <http://slap.pm/>

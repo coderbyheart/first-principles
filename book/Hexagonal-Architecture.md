@@ -1,6 +1,6 @@
 # Hexagonal Architecture
 
-## Literature
+## Resources
 
 - <https://netflixtechblog.com/ready-for-changes-with-hexagonal-architecture-b315ec967749>
 - <http://www.dossier-andreas.net/software_architecture/ports_and_adapters.html>

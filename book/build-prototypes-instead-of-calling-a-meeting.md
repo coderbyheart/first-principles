@@ -22,7 +22,7 @@ Third, these documents never expire and outdate quickly. They are available thro
 
 I prefer to work on a proposal with only the people that have committed resources to the project to draft a rough document that outlines what should be built, and to agree on the timeframe. Identify any blockers and solve them, but then start to work on the real thing quickly. Use the working software to iterate, not the document. Read more about my preferred way to manage software development in [_What to work on_](#what-to-work-on). Do use the bug tracker to record features. A bug tracker should have 0 open tickets (see [_Zero Bug Policy_](#zero-bug-policy)).
 
-## Literature
+## Resources
 
 - A Structured RFC Process, Phil Calçado  
   <https://philcalcado.com/2018/11/19/a_structured_rfc_process.html>

@@ -28,7 +28,7 @@ And to be clear: this is not TDD. In TDD you write the tests _before_ you write 
 
 In the chapter [_Wishful thining_](#wishful-thinking) I wrote about how outside‑in design for me is key to software development. Beginners who struggle with testing often haven’t followed outside‑in design, and tightly coupled, overly complex dependencies and large, monolithic pieces of code.
 
-What makes TDD work for me is thinking in the Unix design philosophy: many tiny, functional pieces of code that can be tied together using events and have clear dependencies. If you encounter that your method has too many dependencies which makes it hard to mock, it is the code telling you to take a step back and refactor your dependencies: there is most likely a way to simplify them and introduce another higher-order component that abstracts the workflow you are invoking. Or is it possible to decouple the workflow into separate, paralell steps that can be decoubled using events (see the chapter about [_Event Sourcing_](#event-sourcing)).
+What makes TDD work for me is thinking in the Unix design philosophy: many tiny, functional pieces of code that can be tied together using events and have clear dependencies. If you encounter that your method has too many dependencies which makes it hard to mock, it is the code telling you to take a step back and refactor your dependencies: there is most likely a way to simplify them and introduce another higher-order component that abstracts the workflow you are invoking. Or is it possible to decouple the workflow into separate, paralell steps that can be decoubled using events (see the chapter about [_Event Driven Systems_](#event-driven-systems)).
 
 It is also important to remember that TDD isn’t about achieving 100 % line coverage. Especially with TypeScript, the language itself catches many errors—like passing the wrong type to a function—so we don’t need a test for every type mismatch.
 
@@ -64,7 +64,7 @@ Finally, mastering this skill takes time. It can take years to become comfortabl
 
 In my teams, I treat testability as a non‑negotiable. I help people understand its value and support them when they struggle. We all struggle with writing tests, and there’s no shame in asking a colleague, “How could I test this?” If you’re stuck, reach out for help.
 
-## Literature
+## Resources
 
 - Kent Beck: Canon TDD
   <https://tidyfirst.substack.com/p/canon-tdd>

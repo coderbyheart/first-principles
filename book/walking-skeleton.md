@@ -22,7 +22,7 @@ It also happens more often than not, that priorities change and we need to stop 
 
 _Walking Skeletons_ reduce the likelihood of your project not delivering value.
 
-## Literature
+## Resources
 
 - <https://wiki.c2.com/?WalkingSkeleton>
 - Kickstart Your Next Project with a Walking Skeleton  

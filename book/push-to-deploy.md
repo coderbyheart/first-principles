@@ -41,7 +41,7 @@ colleagues to learn _how_ things are done and work together.
 For me this is one of the main principles I apply every day, because it enables
 me to move fast, and with confidence.
 
-## Literature
+## Resources
 
 - The SPACE of Developer Productivity  
   <https://queue.acm.org/detail.cfm?id=3454124>

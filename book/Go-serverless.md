@@ -10,7 +10,7 @@ There are downsides:
 - In general, there is more ceremony involved in getting a development environment running, compared to a LAMP/MAMP stack based solution which a developer can run locally.
 - It is a huge mindset shift from the classical application server model (LAMP, Tomcat, Rails), to a serverless, stateless, eventual consistent application development model, which you need to embrace and handle in the entire stack, when you want to optimize for scalability.
 
-## Literature
+## Resources
 
 - Martin Fowler, Mike Roberts: Serverless Architecture  
   <https://martinfowler.com/articles/serverless.html>

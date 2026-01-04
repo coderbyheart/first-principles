@@ -1,6 +1,6 @@
 # Short lived branches {#trunk-based-development}
 
-## Literature
+## Resources
 
 - <https://trunkbaseddevelopment.com/>
 - <http://thinkinglabs.io/talks/feature-branching-considered-evil.html>

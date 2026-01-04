@@ -60,7 +60,7 @@ The _5 whys_ method is so powerful because of its simplicity ... but be careful
 not to come across as annoying when applying it. Showing persistence in
 uncovering fundamental truths takes practice, but always delivers.
 
-## Literature
+## Resources
 
 - Buffer Open: The 5 Whys Process We Use to Understand the Root of Any Problem:  
   <https://buffer.com/resources/5-whys-process/>

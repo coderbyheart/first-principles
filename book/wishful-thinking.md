@@ -41,6 +41,6 @@ When you start from the inside, your mind wanders to every possible future requi
 
 By starting with the outermost contract, mocking everything else, and iterating inward only as far as the current test requires, I avoid the temptation to over‑engineer. This “wishful thinking” approach keeps software lean, focused, and easier to evolve.
 
-## Literature
+## Resources
 
 - Georgina McFadyen: TDD - From the Inside Out or the Outside In? <https://8thlight.com/insights/tdd-from-the-inside-out-or-the-outside-in>
