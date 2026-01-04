@@ -51,8 +51,6 @@ me to move fast, and with confidence.
   <https://speakerdeck.com/charity/cd>
 - Continuous integration vs. continuous delivery vs. continuous deployment  
   <https://www.atlassian.com/continuous-delivery/principles/continuous-integration-vs-delivery-vs-deployment>
-- Reproducible Builds  
-  <https://reproducible-builds.org/>
 - GitOps  
   <https://www.gitops.tech/>
 

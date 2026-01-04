@@ -12,6 +12,7 @@ gut-feelings-first-principles-of-a-software-crafter-markus-tacker.epub: Makefile
 		book/five-whys.md \
 		book/push-to-deploy.md \
 		book/semantic-release.md \
+		book/Reproducible-Builds.md \
 		book/20-percent-rule.md \
 		book/build-prototypes-instead-of-calling-a-meeting.md \
 		book/Have-a-force-ranked-list-of-things-to-work-on.md \
@@ -23,8 +24,6 @@ gut-feelings-first-principles-of-a-software-crafter-markus-tacker.epub: Makefile
 		book/Event-Sourcing.md \
 		book/CQRS.md \
 		book/Hexagonal-Architecture.md \
-		book/12-factor-app.md \
-		book/Reproducible-Builds.md \
 		book/No-monorepos.md \
 		book/Short-lived-branches.md \
 		book/Go-serverless.md \
@@ -52,6 +51,7 @@ gut-feelings-first-principles-of-a-software-crafter-markus-tacker.pdf: Makefile 
 		book/five-whys.md \
 		book/push-to-deploy.md \
 		book/semantic-release.md \
+		book/Reproducible-Builds.md \
 		book/20-percent-rule.md \
 		book/build-prototypes-instead-of-calling-a-meeting.md \
 		book/Have-a-force-ranked-list-of-things-to-work-on.md \
@@ -63,8 +63,6 @@ gut-feelings-first-principles-of-a-software-crafter-markus-tacker.pdf: Makefile 
 		book/Event-Sourcing.md \
 		book/CQRS.md \
 		book/Hexagonal-Architecture.md \
-		book/12-factor-app.md \
-		book/Reproducible-Builds.md \
 		book/No-monorepos.md \
 		book/Short-lived-branches.md \
 		book/Go-serverless.md \
