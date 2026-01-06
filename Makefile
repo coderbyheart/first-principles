@@ -7,6 +7,7 @@ gut-feelings-first-principles-of-a-software-crafter-markus-tacker.epub: Makefile
 		book/title.txt \
 		book/cover.md \
 		book/about.md \
+		book/software-craft.md \
 		book/how-to-share-a-gut-feeling.md \
 		book/privilege.md \
 		book/Have-a-force-ranked-list-of-things-to-work-on.md \
@@ -41,6 +42,7 @@ gut-feelings-first-principles-of-a-software-crafter-markus-tacker.pdf: Makefile 
 		book/title.txt \
 		book/cover.md \
 		book/about.md \
+		book/software-craft.md \
 		book/how-to-share-a-gut-feeling.md \
 		book/privilege.md \
 		book/Have-a-force-ranked-list-of-things-to-work-on.md \
