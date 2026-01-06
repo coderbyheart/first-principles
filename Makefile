@@ -23,10 +23,10 @@ gut-feelings-first-principles-of-a-software-crafter-markus-tacker.epub: Makefile
 		book/push-to-deploy.md \
 		book/semantic-release.md \
 		book/Reproducible-Builds.md \
+		book/Go-serverless.md \
 		book/Event-Driven-Systems.md \
 		book/CQRS.md \
 		book/Hexagonal-Architecture.md \
-		book/Go-serverless.md \
 		book/No-monorepos.md \
 		book/Short-lived-branches.md \
 		book/All-code-styleguides-must-be-enforceable-by-tools.md \
@@ -58,10 +58,10 @@ gut-feelings-first-principles-of-a-software-crafter-markus-tacker.pdf: Makefile 
 		book/push-to-deploy.md \
 		book/semantic-release.md \
 		book/Reproducible-Builds.md \
+		book/Go-serverless.md \
 		book/Event-Driven-Systems.md \
 		book/CQRS.md \
 		book/Hexagonal-Architecture.md \
-		book/Go-serverless.md \
 		book/No-monorepos.md \
 		book/Short-lived-branches.md \
 		book/All-code-styleguides-must-be-enforceable-by-tools.md \
