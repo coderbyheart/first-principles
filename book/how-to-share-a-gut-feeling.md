@@ -22,7 +22,7 @@ decisions.
 In this session I listed mine and we collected some more:
 
 - Push to deploy
-- SOLID
+- SOLID [^solid]
 - No global state
 - No monolith
 - Version dependencies
@@ -32,7 +32,7 @@ In this session I listed mine and we collected some more:
 - Code Stewardship
 
 While some of those are fairly easy to explain (like SOLID where extensive
-documentation can easily be found [^solid]),
+documentation can easily be found),
 others are horribly ambiguous, like _Simplicity_.
 
 In the course of the session we then collected, how principles are shared within

@@ -19,3 +19,5 @@
 [^first-principles-issues]: <https://github.com/coderbyheart/first-principles/issues>
 
 [^homepage]: <https://coderbyheart.com>
+
+[^pre-written-meeting-minutes]: <https://coderbyheart.com/speed-up-your-meetings-with-pre-written-meeting-minutes>

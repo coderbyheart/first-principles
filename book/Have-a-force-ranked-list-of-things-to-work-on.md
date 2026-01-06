@@ -211,7 +211,7 @@ progress of the product development fresh and reduce discussions to a minimum.
 If you have every tried finding a lunch date for five people, try rescheduling
 that date: impossible. That’s why you stick to the meeting schedule, no matter
 what. You start the meeting on point and everyone receives the meeting notes
-afterwards (see [_Pre-written meeting notes_](#pre-written-meeting-minutes)).
+afterwards (see my blog about _Pre-written meeting notes_ [^pre-written-meeting-minutes]).
 Preparation is key and if the backlog board is managed
 well, the result of the sprint planning won’t be a surprise.
 

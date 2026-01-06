@@ -1,8 +1,14 @@
 # About the book
 
-A question I brought to SoCraTes Unconference 2018 in Soltau, Germany [^socrates-2018] was one that formed in the months prior when I was onboarding a new developer to a greenfield project. The project they were going to work on is developed as a walking skeleton. Although the architecture is complete, there is not enough flesh on it to clearly see the patterns I have used when designing it. Right now every component looks like a unicorn and it is hard to see the underlying principles that went into the design—simply because there is not enough code to provide good heuristics.
+> This is not the greatest song in the world  
+> This is just a tribute  
+> — _Tenacious D_
 
-I was looking for a way to provide a resource outside of the code which documents the gut feelings that lead to this architecture. These gut feelings are a result of reading books, articles and building many different software projects, so there is not one school of thought, but a amalgamation of hundreds of resources and experiences I made over the course of nearly 30 years in my career as a software engineer that form the principles that influence my decisions.
+As _Tenacious D_ once wrote in their song _Tribute_: when you’re facing your worst adversaries, you often come up with your greatest ideas. Your gut kicks in, and you can deliver something truly awesome.
+
+Reproducing this, however, is practically impossible.
+
+That’s exactly what I’m trying to capture in this book. It isn’t the best book ever written; it’s a tribute to the many great ideas I use daily that influence my work.
 
 In this book I have tried to document these first principles that I employ when writing software.
 
