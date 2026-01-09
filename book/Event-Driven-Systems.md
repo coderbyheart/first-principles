@@ -1,63 +1,45 @@
 # Event Driven Systems {#event-driven-systems}
 
-High level reasons why I want ES:
+I've been using event-driven systems and event-driven architectures before I switched over to serverless architectures. However, it is clearly the predominant architecture design for serverless systems.
 
-- fits very well Domain Driven Design [^ddd], having events is very close to natural language, CRUD on tables is not.
+A serverless platform really benefits from an architecture if you think in terms of events instead of a procedural flow of actions. You make small changes based on the main action. For example, a user registers, and then everything that happens afterwards—like sending an email notification or creating new resources (let's say the user needs a new project)—is not inline in the same code that does the registration. Instead, your system records a change. You get a `UserCreated` event, and that is then subscribed to by other components who implement their own business logic.
 
-- all changes are recorded, therefore answering questions about any kind of activity is very easy to add and can be answered retrospectively
-- having events everywhere for everything promotes building decoupled systems
-- all changes produce events, this is great for building highly dynamic UIs
+The benefit is that you get many small components in your system that act individually on changes, which really makes them much easier to test and reason about. If you imagine having a big controller class that writes something to the database, calls an email handler, then calls a project creator, then calls another manager who does something, you have basically created a place that would keep growing and growing if you add more features.
 
-This kind of architecture provides high scalability while at the same time being easy to evolve, which is especially helpful in green-field, start-up projects where the product itself constantly evolves and pivots while and there is no historical understanding of usage patterns.
+So if you start with only one thing and have every following change or business rule implemented in a different piece of code, then you can really grow your system easily without having to touch one place again and again when a feature changes.
 
-## Make create operations succeed eventually not immediately
+This is more or less the unix philosophy: a program (or function) should do one thing only. This allows for flexible orchestration of workflows and small functions are much easier to reason about; and of course the test, which is probably the strongest reason why I prefer them.
 
-In order to effectively build cloud native applications which scale horizontally we have to embrace eventual consistency in our storage. Although our primary storage my offer real-time persistence, other components we use to may required longer to process incoming data.
+## Event Storming
 
-Therefore generally never try to return the Entity that was just created.
+Building event-driven systems is an architectural style that fits very well with domain-driven design, and especially a technique called Event Storming [^event-storming]. Event Storming brings all stakeholders together in a room to discuss, using ubiquitous language (which I mentioned in the previous chapter), what should happen in a system.
 
-    > POST /books
-    > title: Foo
-    >
-    > HTTP/1.0 202 Accepted
+Event Storming was developed by Alberto Brandolini. It helps to understand what should happen in a software system through the use of a few elements: events (describe the state change in the system), commands (describes what should happen), actors (describe who is executing commands), and aggregates (persist state). The outcome of a command that is executed by an actor, if the command is valid according to the business rules, is an event. Business rules are als very often recorded in Event Storming session.
 
-This allows us to be more flexible in the way we process writes and can start with writing synchronously to a table and later switch to an Event based storage.
+This allows all stakeholders to use more or less natural language to describe what the system does without needing to go too much into the technical details of the implementation. You stay at this level, and then you are able to transfer what you establish in an Event Storming session into software. And in the software, you repeat these elements. You have events when the system changes, you have commands that actually change the system, you have actors that could be used for specific roles, and they are reflected in your software.
 
-**There is no need to immediately return an ID of a create operation**
+This input is incredibly helpful to build software that follows and solves what the business needs. And in order to solve this in a very good way, you have to constantly talk with business and stakeholders.
 
-Instead, offer the a way to subscribe to events which notify it if the item has been created. It can also poll the list of items.
+For me this is a mental model that helps me to ask the right questions. I can event run Event Storming sessions with any stakeholder, for example a product manager, to figure out what should happen in the feature they want to build, without them needing to know anything about it. I can ask:
 
-## Do not proxy Third Party (RESTful) APIs
+> Given a state of the system (which aggregates are involved), who (actor), can do (business rule) what (command), with which outcome (event)?
 
-_Do not make the user wait on a machine, let another machine do the waiting._
+I can basically turn the answer into a BDD scenario (see [TDD](#tdd)) in the `Given, When, Then` format right in the meeting.
 
-Third party APIs are those which are outside of your execution environment, and which you do not own. This applies to all kinds of APIs, not only REST.
+## The value of state change events
 
-The access to third party APIs should be implemented as a separate service (called ACME service here), since tight coupling them into our workflows would mean we would make the performance and availability of the third party API our immediate concern when it comes to response times towards users.
+Anecdotally, I've seen multiple times in my career the need by business to learn something about user behavior. For example, asking the question: "How many users signed up during the first six months of this year?" In a classical CRUD system, you would have a database with user entries. There would be 5,000 users, for example. And then you would look at maybe the "created at" date. You would see, okay, in the first six months of this year, there were 250 sign-ups. These are some typical metrics or metadata that we record in a CRUD system. But you, for example, wouldn't know how many of those users changed their email address in those six months, because the "updated at" value is change every time something in the record changes, and you wouldn't even know if the email was changed or not, since the user was created.
 
-All interaction with the third party API should be invoked out of band.
+When you have events for everything in your system, however, we can replay every change in the system at any given point in time, and we can build analytics around this. This gives us business intelligence and insight into our data, and we can answer questions that we didn't even know we wanted to ask in the first place.
 
-Implement a high-level API in your business domain that does not leak vendor specific details (following DDD [^ddd]) so the actual underlying service provided by the 3rd party can later be swapped out without needing to refactor your core application.
+## Build loosely coupled systems
 
-### Write Methods
-
-Calls to the write methods to this high-level API will result in a respective event being persisted and dispatched on the event bus.
-
-Now the ACME service can listen to these events and try to fulfill them. It should use workflow orchestration (like AWS Step Functions [^step-functions]) to simplify the coordination of retries in case the 3rd party API is down which will also yield a way to see which requests are not yet fulfilled or timed out.
-
-If the request was fulfilled or failed, the ACME service will notify the core to record the result.
-
-### Read Methods
-
-Calls to the read methods can be handled in band by the core because they would use the aggregated view to serve the request.
-
-Depending on the use case, the ACME service is responsible for regularly fetching information and notifying the core of changes. If this is needed on-demand the same flow as described above for write methods could be used.
-
-This has the advantage that there is no way of flooding the third party API, since the ACME service can throttle requests.
-
-[^step-functions]: <https://aws.amazon.com/step-functions/>
+Building Event Driven Systems give me the ability to build loosely coupled systems which can grown and evolved without having to consider side-effects. For me this keeps the mental load low, and the speed of delivery very high.
 
 ## Resources
 
-- Mistakes we made adopting event sourcing (and how we recovered):  
-  <http://natpryce.com/articles/000819.html>
+- <https://EventStorming.com>
+- Alberto Brandolini: 50,000 Orange Stickies Later  
+  <https://www.youtube.com/watch?v=1i6QYvYhlYQ>
+
+[^event-storming]: <https://ziobrando.blogspot.com/2013/11/introducing-event-storming.html>
