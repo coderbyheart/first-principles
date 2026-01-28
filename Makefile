@@ -28,6 +28,7 @@ gut-feelings-first-principles-of-a-software-crafter-markus-tacker.epub: Makefile
 		book/CQRS.md \
 		book/Hexagonal-Architecture.md \
 		book/Run-your-infra.md \
+		book/No-staging.md \
 		book/No-monorepos.md \
 		book/Short-lived-branches.md \
 		book/All-code-styleguides-must-be-enforceable-by-tools.md \
@@ -64,6 +65,7 @@ gut-feelings-first-principles-of-a-software-crafter-markus-tacker.pdf: Makefile 
 		book/CQRS.md \
 		book/Hexagonal-Architecture.md \
 		book/Run-your-infra.md \
+		book/No-staging.md \
 		book/No-monorepos.md \
 		book/Short-lived-branches.md \
 		book/All-code-styleguides-must-be-enforceable-by-tools.md \
